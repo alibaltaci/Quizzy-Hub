@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from '../public/images/bg-image.jpg';
+import BGImage from '/images/bg-image.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -42,7 +42,10 @@ export const Wrapper = styled.div`
     }
 
     h1{
-        font-family: 'Fascinate Inline', sans-serif;
+        @font-face {
+            font-family: 'Fascinate Inline';
+            src: url('./path-to-your-fonts/FascinateInline-Regular.ttf') format('truetype');
+        }
         background-image: linear-gradient(180deg, #fff, #87f1ff);
         background-size: 100%;
         background-clip: text;
