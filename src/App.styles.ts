@@ -60,7 +60,7 @@ export const Wrapper = styled.div`
         margin: 20px;
     }
 
-    .start{
+    button{
         cursor: pointer;
         background: linear-gradient(180deg, #fff, #ffcc91);
         border: 2px solid #d38558;
@@ -69,7 +69,7 @@ export const Wrapper = styled.div`
         height: 40px;
         margin: 20px 0;
         padding: 0 40px;
-        max-width: 200px;
+        width: 200px;
     }
 
     @media only screen and (max-width: 600px) {

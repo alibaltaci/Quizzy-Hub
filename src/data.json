@@ -1,0 +1,18 @@
+{
+    "home":{
+        "gameList":[
+            {
+                "gameName":"Quiz Game",
+                "path":"quizzy-hub"
+            },
+            {
+                "gameName":"Hang Man Game",
+                "path":"hang-man"
+            },
+            {
+                "gameName":"Tic Tac Toe Game",
+                "path":"tic-tac-toe"
+            }
+        ]
+    }
+}

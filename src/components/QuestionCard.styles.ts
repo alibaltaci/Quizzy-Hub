@@ -29,7 +29,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
         cursor: pointer;
         user-select: none;
         font-size: 0.8rem;
-        width: 100%;
+        min-width: 100%;
         height: 40px;
         margin: 5px 0;
         background: ${({correct, userClicked}) => 
